@@ -36,6 +36,13 @@ h1 {
   line-height: 1.1;
 }
 
+.header {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -46,6 +53,7 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin: 8px;
 }
 button:hover {
   border-color: #646cff;
@@ -66,4 +74,20 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.sideNav {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: lightsteelblue;
+  color: #000;
+  padding: 15px 15px 15px 10px;
+  display: flex;
+  overflow-y: scroll;
+  flex-direction: column;
+  align-items: center;
 }
