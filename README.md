@@ -44,6 +44,7 @@ Gif created with Kap
 ## Notes
 
 Describe any challenges encountered while building the app.
+
 The project was challenging but I was able to figure things out and learn a lot from this process. 
 
 ## License
